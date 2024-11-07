@@ -28,4 +28,3 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     logging.info(f"Server is running on http://{host}:{port}/graphql")
     uvicorn.run(app, host=host, port=int(port))
-    print(f"Server is running on http://{host}:{port}/graphql")
